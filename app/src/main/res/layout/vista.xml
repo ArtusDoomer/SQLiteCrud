@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:hint= "Nombre"/>
+
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:hint="Apellido" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:hint="E-Mail" />
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Telefono" />
+
+    <TextView
+        android:id="@+id/ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:hint="Ciudad"  />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="Salir" />
+</LinearLayout>
